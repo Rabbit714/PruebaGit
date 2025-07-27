@@ -1,1 +1,70 @@
-Contenido Archivo  Nuevo
+
+body {
+
+font-family: sans-serif;
+
+}
+
+form {
+
+width: 300px;
+
+margin: 20px auto;
+
+padding: 20px;
+
+border: 1px solid #ccc;
+
+border-radius: 5px;
+
+}
+
+label {
+
+display: block;
+
+margin-bottom: 5px;
+
+font-weight: bold;
+
+}
+
+input,
+
+textarea {
+
+width: 100%;
+
+padding: 8px;
+
+margin-bottom: 10px;
+
+border: 1px solid #ddd;
+
+border-radius: 3px;
+
+box-sizing: border-box; /* Para que el padding no aumente el ancho total */
+
+}
+
+button {
+
+background-color: #5cb85c;
+
+color: white;
+
+padding: 10px 15px;
+
+border: none;
+
+border-radius: 5px;
+
+cursor: pointer;
+
+}
+
+button:hover {
+
+background-color: #4cae4c;
+
+}
